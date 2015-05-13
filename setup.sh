@@ -90,8 +90,8 @@ if [ -h "$HOME/.vim" ]; then
 fi
 ln -s "$MY_PATH/vim" ~/.vim
 
-# rm ~/.tmux.conf
-# ln -s "$MY_PATH/tmux.conf" ~/.tmux.conf
+rm ~/.tmux.conf
+ln -s "$MY_PATH/tmux.conf" ~/.tmux.conf
 
 # rm ~/.aliases
 # ln -s "$MY_PATH/aliases" ~/.aliases
