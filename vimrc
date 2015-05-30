@@ -14,6 +14,7 @@ filetype plugin indent on
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 source ~/.vim/kill-whitespace.vim
 source ~/.vim/tmux-integration.vim
+source ~/.vim/ctrlp.vim
 
 " remap indenting commands so that visual selection is kept
 vnoremap > >gv
