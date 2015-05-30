@@ -7,3 +7,6 @@
 [submodule "vim/bundle/vim-latex"]
 	path = vim/bundle/vim-latex
 	url = git@github.com:Maxlufs/vim-latex.git
+[submodule "vim/bundle/vim-tmux-navigator"]
+	path = vim/bundle/vim-tmux-navigator
+	url = git@github.com:christoomey/vim-tmux-navigator.git
