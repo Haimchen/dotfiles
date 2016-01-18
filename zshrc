@@ -37,8 +37,8 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin
 
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
 
-alias t = "tig status --all"
+alias t="tig status --all"
 
-alias gco = "git checkout"
+alias gco="git checkout"
 
 
