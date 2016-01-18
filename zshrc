@@ -36,3 +36,9 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin
 # eval "$(rbenv init - zsh)"
 
 alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+alias t = "tig status --all"
+
+alias gco = "git checkout"
+
+

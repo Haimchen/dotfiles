@@ -52,6 +52,14 @@ execute pathogen#infect()
 nmap <silent> <S-w> :bn<cr>
 nmap <silent> <S-q> :bp<cr>
 
+" set leader to ,
+let mapleader = ","
+
+" copy to clipboard and paste in all modes
+noremap <leader>yy "*Y
+noremap <leader>y "*y
+noremap <leader>p :set paste <CR> :put *<CR> :set nopaste <CR>
+
 " open Nerdtree file browser Ctrl+n
 map <C-n> :NERDTreeToggle<CR>
 
