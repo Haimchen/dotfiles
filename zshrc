@@ -29,7 +29,11 @@ plugins=(git autojump)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/texbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+# for tmuxinator
+export EDITOR='vim'
+export DISABLE_AUTO_TITLE=true
 
 # rbenv installation
 # export PATH="$HOME/.rbenv/bin:$PATH"
@@ -41,4 +45,11 @@ alias t="tig status --all"
 
 alias gco="git checkout"
 
+alias gpl="git pull"
 
+alias gps="git push"
+
+alias gfa="git fetch --all"
+
+# initialize rbenv on zsh start
+if which rbenv > /dev/null; then eval "$(rbenv init --no-rehash - zsh)"; fi

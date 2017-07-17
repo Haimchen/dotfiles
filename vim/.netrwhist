@@ -1,10 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =8
-let g:netrw_dirhist_1='/Users/sarah/projects/dotfiles'
-let g:netrw_dirhist_2='/Users/sarah/Documents/TU/berechenbarkeit-komplexitaet'
-let g:netrw_dirhist_3='/Users/sarah/Documents/TU/berechenbarkeit-komplexitaet/ha1'
-let g:netrw_dirhist_4='/Users/sarah/Documents/TU/berechenbarkeit-komplexitaet'
-let g:netrw_dirhist_5='/Users/sarah/Documents/TU/berechenbarkeit-komplexitaet/ha1'
-let g:netrw_dirhist_6='/Users/sarah/Documents/TU/berechenbarkeit-komplexitaet'
-let g:netrw_dirhist_7='/Users/sarah/Documents/TU'
-let g:netrw_dirhist_8='/Users/sarah/Documents/TU/berechenbarkeit-komplexitaet'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/sarah/Documents/TU/webtech/ha12'
+let g:netrw_dirhist_2='/Users/sarah/Documents/TU/webtech/ha12/files'
+let g:netrw_dirhist_3='/Users/sarah/Documents/TU/aal-project/iolite-ui/uhm-iolite-apps/lehre-iolite-ui/app'
