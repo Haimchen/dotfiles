@@ -21,6 +21,7 @@ Plugin 'vim-airline/vim-airline-themes'
 Plugin 'qpkorr/vim-bufkill'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'tpope/vim-rails'
+Plugin 'fatih/vim-go'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -85,6 +86,12 @@ inoremap <S-Tab> <C-D>
 " in normal mode, too
 nnoremap <Tab> >>_
 nnoremap <S-Tab> <<_
+
+" map L to search in all files
+nnoremap L :Ack!<SPACE>
+
+" map K to search word under cursor in all files
+nnoremap K :Ack! "\b<C-R><C-W>\b"<CR>
 
 " configure invisibles
 set listchars=tab:▸\ ,nbsp:_,trail:·
