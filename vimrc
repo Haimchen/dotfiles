@@ -92,6 +92,8 @@ nnoremap L :Ack!<SPACE>
 
 " map K to search word under cursor in all files
 nnoremap K :Ack! "\b<C-R><C-W>\b"<CR>
+" search selection in visual mode
+vnoremap K "ky :Ack! "\b<C-R>k\b"<CR>
 
 " configure invisibles
 set listchars=tab:▸\ ,nbsp:_,trail:·
