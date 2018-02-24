@@ -31,6 +31,9 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin:/Applications/Postgres.app/Contents/Versions/latest/bin
 
+# Go path
+export GOPATH=$HOME/projects/go
+
 # for tmuxinator
 export EDITOR='vim'
 export DISABLE_AUTO_TITLE=true
